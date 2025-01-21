@@ -1,33 +1,33 @@
 const defaultSEOConfig = {
-  title: "Anish De | Fullstack Developer",
+  title: "Bala Komatireddy | Blockchain Developer",
   description:
-    "High Schooler • Fullstack Web Developer • Web3 Enthusiast • Blogger • Tech Enthusiast",
-  cannonical: "https://anishde.dev/",
+    "MSCS @ SJSU • Blockchain Developer • AI Enthusiast",
+  cannonical: "https://0xbala.com/",
   openGraph: {
     type: "website",
-    url: "https://anishde.dev/",
-    site_name: "Anish De",
-    title: "Anish De | Fullstack Developer",
+    url: "https://0xbala.com/",
+    site_name: "Bala Komatireddy",
+    title: "Bala Komatireddy | Blockchain Developer",
     description:
-      "High Schooler • Fullstack Web Developer • Web3 Enthusiast • Blogger • Tech Enthusiast",
+      "MSCS @ SJSU • Blockchain Developer • AI Enthusiast",
     images: [
       {
-        url: "https://res.cloudinary.com/anishde12020/image/upload/v1654360780/Blogfolio/og.png",
+        url: "https://ik.imagekit.io/j3ek4z0iqu/IMG_6714.HEIC?updatedAt=1737384541808",
         width: 1200,
         height: 630,
-        alt: "Anish De's Portfolio Site's Opengraph Image",
+        alt: "Bala's Portfolio Site Image",
       },
     ],
     profile: {
-      firstName: "Anish",
-      lastName: "De",
-      username: "AnishDe12020",
+      firstName: "Bala",
+      lastName: "Komatireddy",
+      username: "0xbala-k",
       gender: "male",
     },
   },
   twitter: {
-    handle: "@AnishDe12020",
-    site: "@AnishDe12020",
+    handle: "@0xbala_k",
+    site: "@0xbala_k",
     cardType: "summary_large_image",
   },
 };

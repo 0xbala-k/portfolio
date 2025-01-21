@@ -1,23 +1,22 @@
 import Socials from "@/components/Shared/Socials";
 import NextImage from "next/image";
-import AvatarJPG from "public/static/images/avatar.jpg";
+import AvatarJPG from "public/static/images/pixton-avatar-headshot-murali k..png";
 
 const Hero = (): JSX.Element => {
   return (
     <div className="flex flex-col-reverse md:flex-row md:justify-between md:space-y-0">
       <div className="mt-8 flex flex-col justify-center space-y-4 md:mt-0 md:w-2/3">
         <h1 className="will-change-opacity text-5xl font-bold will-change-transform">
-          Anish De
+          Bala Komatireddy
         </h1>
         <h2 className="will-change-opacity text-lg font-medium text-gray-400 will-change-transform">
-          High Schooler • Fullstack Web Developer • Web3 Enthusiast • Blogger •
-          Tech Enthusiast
+          MSCS @ SJSU • Blockchain Developer • AI Enthusiast
         </h2>
         <p className="text-md will-change-opacity text-lg text-gray-300 will-change-transform">
-          I am a fullstack web developer, currently looking into learning new
-          things (Rust, Go, Web3 and backend technologies). Whenever I feel like
-          I should share my knowledge with others, I like to do it via blog
-          posts and social media.
+          I am a Blockchain Developer with expertise in Cosmos-SDK, Ethereum, and programming in Golang and Rust. I have experience delivering scalable decentralized systems, including blockchain explorers, DeFi APIs, and NFT platforms, along with contributing to open-source projects focused on Cosmos-SDK and cross-chain interoperability. Passionate about advancing blockchain technology, I specialize in building high-performance, secure solutions for the decentralized future.
+        </p>
+        <p className="will-change-opacity text-lg font-medium text-gray-400 will-change-transform">
+          Golang, Rust, Solidity, Python, Java, Cosmos-SDK, Ethereum, Web3.js, Ethers.js
         </p>
         <Socials className="!mt-12" />
       </div>
@@ -26,7 +25,7 @@ const Hero = (): JSX.Element => {
           src={AvatarJPG}
           layout="fill"
           placeholder="blur"
-          alt="Anish De"
+          alt="Bala-K"
         />
       </div>
     </div>
